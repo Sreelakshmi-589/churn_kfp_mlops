@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.git/
+.github/
+data/
+local_outputs/
+tests/
+*.pyc.venv/
+__pycache__/
+.pytest_cache/
+.git/
+.github/
+data/
+local_outputs/
+tests/
+*.pyc
