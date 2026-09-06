@@ -5,3 +5,4 @@ joblib
 pytest
 fastapi
 uvicorn
+httpx2
