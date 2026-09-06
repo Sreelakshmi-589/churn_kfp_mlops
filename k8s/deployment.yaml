@@ -15,10 +15,13 @@ spec:
         app: churn-api
 
     spec:
+      imagePullSecrets:
+        - name: ghcr-secret
+      
       containers:
         - name: churn-api
-          image: churn-api:1.1
-          imagePullPolicy: Never
+          image: ghcr.io/sreelakshmi-589/churn-api:9eb2cc9dea954ab258f0fe8c14061e3ac1c619c1
+          imagePullPolicy: Always
 
           ports:
             - containerPort: 8000
