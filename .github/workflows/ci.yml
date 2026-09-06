@@ -44,10 +44,10 @@ jobs:
       - name: Build Docker image
         run: |
           docker build \
-            -t ghcr.io/${{ github.repository_owner }}/churn-api:${{ github.sha }} \
+            -t ghcr.io/sreelakshmi-589/churn-api:${{ github.sha }} \
             .
 
       - name: Push Docker image
         run: |
           docker push \
-            ghcr.io/${{ github.repository_owner }}/churn-api:${{ github.sha }}
+            ghcr.io/sreelakshmi-589/churn-api:${{ github.sha }}
